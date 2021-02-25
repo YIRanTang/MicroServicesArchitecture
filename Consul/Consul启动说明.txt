@@ -1,0 +1,25 @@
+Nginx
+http://*:80
+
+//启动Consul
+consul_1.6.2.exe agent –dev
+
+// 启动Ocelot
+dotnet WTA.OcelotGateway.dll --urls="http://*:6299"
+
+//启动授权中心
+dotnet WTA.AuthenticationCenter.dll --urls="http://*:5726" --ip="127.0.0.1" --port=5726
+
+
+//启动服务实例
+dotnet WTA.FinanceWebApi.dll --urls="http://*:5178" --ip="127.0.0.1" --port=5178
+dotnet WTA.FinanceWebApi.dll --urls="http://*:5177" --ip="127.0.0.1" --port=5177
+
+
+
+
+
+Redis
+
+http://127.0.0.1:6299/consul/Health
+http://127.0.0.1:5178/api/Health

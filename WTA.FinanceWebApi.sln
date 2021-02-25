@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WTA.FinanceWebApi", "WTA.FinanceWebApi\WTA.FinanceWebApi.csproj", "{17004B4C-ECCB-42AB-9FC1-51876E0983CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WTA.Finance.Interface", "WTA.Finance.Interface\WTA.Finance.Interface.csproj", "{D373FD61-1327-4FFB-8DB0-DD0A1979A345}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WTA.Finance.Model", "WTA.Finance.Model\WTA.Finance.Model.csproj", "{69B0676D-55DA-470B-AE75-3D639F79BEB8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WTA.OcelotGateway", "WTA.OcelotGateway\WTA.OcelotGateway.csproj", "{A161EFE3-B165-47F5-B9F7-CFAB35D67F6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WTA.FreamworkLibrary", "WTA.FreamworkLibrary", "{3B54C312-2DC5-4D51-BA46-721814677D3F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WTA.Redis", "WTA.Redis\WTA.Redis.csproj", "{101BA8C4-5F5A-4515-ACC5-41EF9047AC8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WTA.AuthenticationCenter", "WTA.AuthenticationCenter\WTA.AuthenticationCenter.csproj", "{6753297B-3781-412A-A759-58EE24160372}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17004B4C-ECCB-42AB-9FC1-51876E0983CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17004B4C-ECCB-42AB-9FC1-51876E0983CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17004B4C-ECCB-42AB-9FC1-51876E0983CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17004B4C-ECCB-42AB-9FC1-51876E0983CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D373FD61-1327-4FFB-8DB0-DD0A1979A345}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D373FD61-1327-4FFB-8DB0-DD0A1979A345}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D373FD61-1327-4FFB-8DB0-DD0A1979A345}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D373FD61-1327-4FFB-8DB0-DD0A1979A345}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69B0676D-55DA-470B-AE75-3D639F79BEB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69B0676D-55DA-470B-AE75-3D639F79BEB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69B0676D-55DA-470B-AE75-3D639F79BEB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69B0676D-55DA-470B-AE75-3D639F79BEB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A161EFE3-B165-47F5-B9F7-CFAB35D67F6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A161EFE3-B165-47F5-B9F7-CFAB35D67F6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A161EFE3-B165-47F5-B9F7-CFAB35D67F6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A161EFE3-B165-47F5-B9F7-CFAB35D67F6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{101BA8C4-5F5A-4515-ACC5-41EF9047AC8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{101BA8C4-5F5A-4515-ACC5-41EF9047AC8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{101BA8C4-5F5A-4515-ACC5-41EF9047AC8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{101BA8C4-5F5A-4515-ACC5-41EF9047AC8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6753297B-3781-412A-A759-58EE24160372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6753297B-3781-412A-A759-58EE24160372}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6753297B-3781-412A-A759-58EE24160372}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6753297B-3781-412A-A759-58EE24160372}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{101BA8C4-5F5A-4515-ACC5-41EF9047AC8C} = {3B54C312-2DC5-4D51-BA46-721814677D3F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B0A03CBA-8233-4572-9877-ADC392B5735E}
+	EndGlobalSection
+EndGlobal
